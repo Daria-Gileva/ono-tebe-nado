@@ -1,10 +1,9 @@
-
-header { 
+header {
   width: 1052px;
   height: 105px;
   margin: 95px 24px 96px;
   gap: 0px;
-  opacity: 0px; 
+  opacity: 0px;
   position: absolute;
   justify-content: space-between;
   align-items: center;
@@ -16,11 +15,11 @@ header {
   text-align: left;
 }
 
-.menu {  
+.menu {
   width: 391.48px;
-  height: 22px; 
-  left: 26.52px;  
-  font-size: 18px; 
+  height: 22px;
+  left: 26.52px;
+  font-size: 18px;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -44,7 +43,7 @@ header {
   width: 7px;
   height: 7px;
   border-radius: 100%;
-  border: 1px solid rgba(0, 0, 0, 1);  
+  border: 1px solid rgba(0, 0, 0, 1);
 }
 
 .img_logo_black {
@@ -102,12 +101,12 @@ address {
   width: 316px;
   height: 115px;
   gap: 0px;
-  opacity: 0px;  
+  opacity: 0px;
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
   letter-spacing: 0.3em;
-  text-align: left;  
+  text-align: left;
   position: absolute;
 }
 
@@ -154,8 +153,8 @@ address {
 .img_cover {
   width: 1100px;
   height: 757px;
-  z-index: 0;  
-  object-fit: cover; 
+  z-index: 0;
+  object-fit: cover;
 }
 
  .subline {
@@ -204,7 +203,7 @@ address {
   font-size: 22px;
   font-weight: 500;
   line-height: 25.83px;
-  text-align: center;  
+  text-align: center;
   z-index: 150;
   font-style: normal;
 }
@@ -288,7 +287,7 @@ address {
   text-align: left;
   position: absolute;
   color: white;
-  z-index: 100; 
+  z-index: 100;
 }
 
 .lots_card_second {
@@ -368,7 +367,7 @@ position: absolute;
   left: 93px;
   gap: 0px;
   border: 6px 0px 0px 0px;
-  opacity: 0px; 
+  opacity: 0px;
   position: absolute;
 }
 
@@ -431,7 +430,7 @@ footer {
 
 .footer_address {
   width: 240.52px;
-  height: 98px; 
+  height: 98px;
   position: absolute;
 }
 
@@ -445,7 +444,7 @@ footer {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
-  text-align: center; 
+  text-align: center;
 }
 
 .footer_socials {
