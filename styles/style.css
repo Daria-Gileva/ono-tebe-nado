@@ -55,7 +55,6 @@ header {
   }
 
 address {
-  line-height: normal;
   font-style: normal;
   font-size: 18px;
   line-height: 24.3px;
@@ -126,12 +125,13 @@ address {
   line-height: 100px;
   letter-spacing: 0.3em;
   text-align: left;
+  position: absolute;
 }
 
 .third_title_word {
   width: 417px;
   height: 100px;
-  margin-top: 20px;
+  margin-top: 254px;
   margin-left: 583px;
   gap: 0px;
   opacity: 0px;
@@ -140,6 +140,7 @@ address {
   line-height: 100px;
   letter-spacing: 0.3em;
   text-align: right;
+  position: absolute;
 }
 
 .overlay {
