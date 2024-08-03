@@ -83,7 +83,7 @@ address {
  .title {
   padding-top: 115px;
   display: grid;
-  grid-row: 3fr;
+  /* grid-row: 3fr; */
   row-gap: 9px;
   font-size: 100px;
   font-weight: 700;
@@ -118,7 +118,7 @@ address {
 .title-word-right {
   position: relative;
   display: flex;
-  justify-content: baseline;
+  justify-content: flex-start;
   justify-self: end;
   max-width: 417px;
 }
@@ -206,10 +206,12 @@ article {
   display: flex;
   justify-content: space-between;
   gap: 25px;
+  row-gap: 25px;
   flex-wrap: wrap;
   width: 1052px;
-  height: 562px;
   list-style: none;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .lots-card-film {
