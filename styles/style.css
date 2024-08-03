@@ -75,7 +75,7 @@ address {
   font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   color: #fff;
   text-transform:uppercase;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -220,7 +220,7 @@ article {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  background: url(/images/card-lot-01.jpg) no-repeat center center;
+  background: url(../images/card-lot-01.jpg) no-repeat center center;
   background-size: cover;
   z-index: 0;
   position: relative;
@@ -260,7 +260,7 @@ article {
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
-  background: url(/images/card-lot-02.jpg) no-repeat center center;
+  background: url(../images/card-lot-02.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -270,7 +270,7 @@ article {
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
-  background: url(/images/card-lot-03.jpg) no-repeat center center;
+  background: url(../images/card-lot-03.jpg) no-repeat center center;
   background-size: cover;
 }
 
