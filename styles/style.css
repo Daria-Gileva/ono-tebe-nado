@@ -31,11 +31,15 @@ header {
   list-style: circle;
 }
 
-.header--list-item-no-bullit {
+.links-active {
+  border: none;
+}
+
+.list-item-no-bullit {
   list-style-type: none;
 }
 
-.header--links-item-no-bullit {
+.links-no-line {
   border: none;
 }
 
@@ -207,7 +211,6 @@ article {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-  row-gap: 25px;
   flex-wrap: wrap;
   width: 1052px;
   list-style: none;
@@ -215,15 +218,18 @@ article {
   align-content: flex-start;
 }
 
-.lots-card-film {
+.lots-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  background: url(../images/card-lot-01.jpg) no-repeat center center;
-  background-size: cover;
   z-index: 0;
   position: relative;
+}
+
+.lots-card-film {
+  background: url(../images/card-lot-01.jpg) no-repeat center center;
+  background-size: cover;
 } 
 
 .lots-title-card {
@@ -255,21 +261,11 @@ article {
  }
 
 .lots-card-book {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  position: relative;
   background: url(../images/card-lot-02.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .lots-card-picture {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  position: relative;
   background: url(../images/card-lot-03.jpg) no-repeat center center;
   background-size: cover;
 }
